@@ -36,10 +36,10 @@ function main() {
 
     var liElements2=document.querySelectorAll('li.for_loop');
     for (var count = 0; count < newsSections.length; count++) {
-        liElements2[count].innerHTML = newsSections[count];
+        liElements2[count].innerHTML = count+". "+newsSections[count];
     }
 
-
+    liElements2[100].innerHTML = "X";
 
 }
 
