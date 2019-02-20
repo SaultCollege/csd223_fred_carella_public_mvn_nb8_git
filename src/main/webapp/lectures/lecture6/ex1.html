@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Skeleton title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        <script src='ex1.js'></script>
+        <style>
+            .hd{
+                font-size: 1.2em;
+                font-weight: bold;
+                padding-top: 10px;
+                background-color: #ebebeb;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Chapter 6</h1>
+        <h2>Forms</h2>
+        <form id="form1">
+            <table>
+                <tr>
+                    <td class="hd" colspan="2">input</td>
+                </tr>
+                <tr>
+                    <td>First Name:</td>
+                    <td>
+                        <input name="firstname" type="text"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Last Name:</td>
+                    <td>
+                        <input name="lastname" type="text"/>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="hd" colspan="2">select</td>
+                </tr>
+                <tr>
+                    <td>Cars:</td>
+                    <td>
+                        <select name="cars">
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                            <option value="fiat">Fiat</option>
+                            <option value="audi">Audi</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="hd" colspan="2">textarea</td>
+                </tr>
+                <tr>
+                    <td>Description:</td>
+                    <td>
+                        <textarea name="message" rows="10" cols="30">
+The cat was playing in the garden.
+                        </textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="hd" colspan="2">button</td>
+                </tr>
+                <tr>
+                    <td>Button:</td>
+                    <td>
+                        <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="hd" colspan="2">submit button</td>
+                </tr>
+                <tr>
+                    <td>Submit:</td>
+                    <td>
+                        <input type="submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+
+    </body>
+</html>
